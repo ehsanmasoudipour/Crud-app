@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "task-python"
+version = "0.1.0"
+description = ""
+authors = ["ehsanmasoudipour <ehsanms1381@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+toml = "^0.10.2"
+pillow = "^10.0.0"
+flake8 = "^6.0.0"
+psycopg2 = "^2.9.6"
+django = "^4.2.3"
+psycopg2-binary = "^2.9.6"
+tqdm = "^4.65.0"
+mimesis = "^10.1.0"
+python-decouple = "^3.8"
+ipython = "^8.14.0"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.3"
+django-filter = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
