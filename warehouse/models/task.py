@@ -3,7 +3,6 @@ from django.utils.translation import gettext_lazy as _
 from warehouse.mixins import TimestampMixin
 
 class Task(TimestampMixin):
-    '''table for tasks items'''
     description = models.TextField(
         _("Description"),
         help_text=("Long Description.")
